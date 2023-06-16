@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>9029 SVG CONVERTER</title>
+  <link rel="stylesheet" type="text/css" href="./src/stylesheet.css">
+</head>
+<body>
+  <h1>9029 SVG CONVERTER</h1>
+  <form>
+    <input type="file" id="imageUpload" accept="image/*" class="custom-input"> <br> <br>
+    <button type="button" onclick="convertToSVG()">Converti in SVG</button>
+  </form>
+  <div id="downloadContainer">
+    <a id="downloadButton" download="immagine.svg"><button type="button">Download SVG</button></a>
+  </div>
+  <div id="imagePreviewContainer"></div>
+
+  <script src="./src/script.js"></script>
+</body>
+</html>
